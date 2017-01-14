@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	var random_num = Math.round(Math.random()*3)
 	
-	var projects = [' iOS Apps', ' websites', ' video games', ' interactions', ' experiences']
+	var projects = [' character animation', ' iOS Apps', ' websites', ' video games', ' interactions', ' experiences']
     var i = 0 
  
     function infolist(){
@@ -11,7 +11,7 @@ $(document).ready(function(){
       
         function rotate(){
             var delay = setInterval(function(){ 
-                if(i<=4){
+                if(i<=5){
                      
                     $('#output').animate({
                         top: '-2px'

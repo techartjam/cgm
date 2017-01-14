@@ -1,3 +1,9 @@
+/*
+blue #336699
+orange #cc6633
+gray #333333
+*/
+
 html, body {
 	height 		: 100%;
 	width 		: 100%; 
@@ -14,8 +20,8 @@ h1, ul{
 #wrapper {
 	height: 100%; 
 	width: 100%%; 
-	background-color: #FFFBEB;
-	color: #345267;
+	background-color: #C6C6C6;
+	color: #59595F;
 	font-family: 'Oswald', serif;
 	letter-spacing: 0em;
   	font-size: 3em;
@@ -24,23 +30,23 @@ h1, ul{
 }
 
 #wrapper a{
-	color: #2B1B08;
+	color: #FF9500;
 	text-decoration: none;
-	border-bottom: 6px solid #2B1B08;
-	-webkit-transition: background-color 1.00s ease-in-out;
-  	-moz-transition: background-color 1.00s ease-in-out;
-  	-o-transition: background-color 1.00s ease-in-out;
-  	transition: background-color 1.00s ease-in-out;
+	border-bottom: 6px solid #FF9500;
+	-webkit-transition: background-color .25s ease-in-out;
+  	-moz-transition: background-color .25s ease-in-out;
+  	-o-transition: background-color .25s ease-in-out;
+  	transition: background-color .25s ease-in-out;
 }
 
 #wrapper a:hover{
-	background-color: #909CB3 ;
-	color: #FFFBEB;
-	border-bottom: 6px;
+	background-color: #14ABFC ;
+	color: #ffffff;
+	border-bottom: 6px solid #14ABFC;
 }
 
 #highlight{
-	color: #345267;
+	color: #2B2B32;
 }
 
 #footer{
@@ -48,7 +54,7 @@ h1, ul{
 }
 
 #footer a{
-	border-bottom: 1px solid #2B1B08;
+	border-bottom: 1px solid #FF9500;
 }
 
 .main--spaced {
@@ -58,7 +64,7 @@ h1, ul{
   width: 100%;
   height: 100%;
   padding: 0em;
-  background-color: #FFFBEB;
+  background-color: #C6C6C6;
   border-radius: 3px;
 }
 
@@ -70,7 +76,7 @@ h1, ul{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #FFFBEB;
+  background-color: #C6C6C6;
 }
 
 .top-item {
