@@ -30,9 +30,10 @@ h1, ul{
 }
 
 #wrapper a{
-	color: #FF9500;
+	color: #59595F;
 	text-decoration: none;
-	border-bottom: 6px solid #FF9500;
+/*	background-color: #14ABFC;*/
+    border-bottom: 6px solid #14ABFC;
 	-webkit-transition: background-color .25s ease-in-out;
   	-moz-transition: background-color .25s ease-in-out;
   	-o-transition: background-color .25s ease-in-out;
@@ -40,9 +41,9 @@ h1, ul{
 }
 
 #wrapper a:hover{
-	background-color: #14ABFC ;
-	color: #ffffff;
-	border-bottom: 6px solid #14ABFC;
+	background-color: #59595F;
+	color: #14ABFC;
+	border-bottom: none;
 }
 
 #highlight{
@@ -54,7 +55,7 @@ h1, ul{
 }
 
 #footer a{
-	border-bottom: 1px solid #FF9500;
+	border-bottom: 2px solid #14ABFC;
 }
 
 .main--spaced {
@@ -90,6 +91,13 @@ h1, ul{
 .top-item--bottom {
   align-self: flex-end;
 }
+
+/*MICRO POSTS*/
+/*
+.micro-posts {
+    font-size: 1.66em;
+}
+*/
 
 
 /*MEDIA QUEERIES*/
